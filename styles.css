@@ -1,8 +1,3 @@
-ul, ol {
-    padding-left: 0;   /* Remove padding from the list container */
-    margin-left: 0;    /* Remove margin from the list container */
-}
-
 .background {
     background-color: black;
     width: 100%;
@@ -13,16 +8,16 @@ ul, ol {
     overflow: auto;
 }
 
-.game_frame {   
-    width: 300px;
-    padding-top: 25px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
 .cover_img {
     height: 100vh;
     width: auto;
+    position: relative;
 }
 
+.monster_legs {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: auto;
+}
