@@ -57,7 +57,7 @@
         }
         .monster_arm_r:hover {
             cursor: pointer;
-            filter: drop-shadow(0 0 15px rgba(248, 234, 32, 0.801)); /* Green glow around the image */
+            filter: drop-shadow(0 0 15px rgba(68, 248, 32, 0.801)); /* Green glow around the image */
         }
         .monster_arm_l {
             position: absolute;
@@ -68,6 +68,19 @@
             transition: filter 0.3s ease;
         }
         .monster_arm_l:hover {
+            cursor: pointer;
+            filter: drop-shadow(0 0 15px rgba(68, 248, 32, 0.801)); /* Green glow around the image */
+        }
+
+        .monster_head {
+            position: absolute;
+            height: 17vh;
+            width: auto;
+            top: 0vh;
+            left: 46.2%;
+            transition: filter 0.3s ease;
+        }
+        .monster_head:hover {
             cursor: pointer;
             filter: drop-shadow(0 0 15px rgba(248, 234, 32, 0.801)); /* Green glow around the image */
         }
@@ -80,6 +93,7 @@
         <img src="monster_body.png" class="monster_body">
         <img src="monster_arm_r.png" class="monster_arm_r">
         <img src="monster_arm_l.png" class="monster_arm_l">
+        <img src="monster_head.png" class="monster_head">
     </div>
 </body>
 </html>
